@@ -1,7 +1,26 @@
 aid: kinetic-apps
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinetic-apps.png
 name: Kinetic Apps
-description: 'Kinetic Apps is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Kinetic (kineticapps.ai) is a Brooklyn-based venture studio and consumer-software
+  portfolio-company builder that uses AI to let small teams ship products that previously
+  required much larger ones. Rather than long planning cycles, Kinetic launches focused
+  consumer apps, watches real user behavior, and feeds those learnings back into a shared
+  engine of creative, distribution channels, data, and product patterns to accelerate the
+  next launch. Its portfolio of consumer applications includes Nested, Prove It, PayMe, Relay,
+  and Tempo. Backed by GV (Google Ventures). Kinetic publishes no public developer platform,
+  API, SDK, or documentation surface at this time; this profile is a company/provider lead in
+  the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/kinetic-apps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
+- AI
+- Venture Studio
+- Consumer Software
+- Startup Studio
+- App Portfolio
+- Product Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kinetic-apps-domain-security.yml
 - type: Website
-  url: http://www.kineticapps.ai
+  url: https://kineticapps.ai
+- type: Careers
+  url: https://jobs.ashbyhq.com/kinetic
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
